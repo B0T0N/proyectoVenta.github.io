@@ -1,0 +1,61 @@
+/* Diseño de form */
+
+body{
+    background-color: #4d288963;
+}
+
+.modaleso{
+    position: fixed;
+    top: 2%;
+    left: 30%;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.5);
+    transition: all 500ms ease;
+}
+
+.contenedores{
+    max-width: 700px;
+    max-height: 700px;
+    margin: auto;
+    background: #eeeeee;
+    border-radius: 30px;
+    box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+    transition: all 500ms ease;
+}
+
+.contenedores header{
+    padding: 15px;
+    border-radius: 30px 30px 0px 0px;
+    background: #820260;
+    color: #eeeeee;
+}
+
+.contenedores .redit{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #eeeeee;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#ver-modal{
+    display: none;
+}
+
+.photo{
+    width: 100px;
+}
+
+.cancelacion{
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    margin: 10px;
+}
+
+.saco{
+    margin: 10px;
+}
+
+/* fin de diseño de form */

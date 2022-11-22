@@ -1,0 +1,103 @@
+/* Diseño de form inicio */
+
+body{
+    background-color: #3d099063;
+}
+
+.modaleso{
+    position: fixed;
+    top: 20%;
+    left: 37%;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.5);
+    transition: all 500ms ease;
+    
+}
+
+.contenedores{
+    width: 400px;
+    height: 360px;
+    margin: auto;
+    border-radius: 30px;
+    background: #eeeeee;
+    box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+    transition: all 500ms ease;
+}
+
+.contenedores h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.contenedores .redit{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #eeeeee;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+/* fin de diseño de form inicio */
+
+/* inicio de diseño de form registro */
+
+#tol-modal{
+    display: none;
+}
+
+.caja-modal{
+    position: absolute;
+    bottom: 7%;
+    left: 35%;
+}
+
+.paleso{
+    position: fixed;
+    top: 10%;
+    left: 33%;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#tol-modal:checked ~ .paleso{
+    opacity: 1;
+    visibility: visible;
+}
+
+.perdedores{
+    width: 500px;
+    height: 540px;
+    border-radius: 30px;
+    margin: auto;
+    background: #eeeeee;
+    box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+    transition: all 500ms ease;
+}
+
+.perdedores .redit{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #eeeeee;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#tol-modal{
+    display: none;
+}
+
+.botones{
+    display: inline;
+    margin-right: 5px;
+}
+
+
+
+/* fin de diseño de form registro */
